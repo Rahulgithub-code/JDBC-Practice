@@ -1,0 +1,13 @@
+What is JDBC ?
+1. JDBC stand for Java Database Connectivity.
+2. JDBC is a Java API to connect and perform operation's(Insert, Delete,
+Update, Select, etc) with the database.
+3. JDBC API uses JDBC driver to connect with database.
+
+How to create connection ?
+5 Step for connect Java Application with the MySQL database -
+Step 1 : Load the driver class,
+Step 2 : Create connection using DriverManager,
+Step 3 : Use connection to fire queries { Statement for static queries and PreparedStatement for Dynamic queries}
+Step 4 : Process the result,
+Step 5 : Close the connection.
